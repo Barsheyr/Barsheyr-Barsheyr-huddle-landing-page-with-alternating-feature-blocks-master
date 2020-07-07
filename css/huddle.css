@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.1em;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 20px;
+}
+
+header {
+    background-image: url(images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    height: 100vh;
+}
+
+
+/*-----NAV SECTION-----*/
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.headsec>div {
+    flex: 1;
+}
+
+.mockups {
+    max-width: 100%;
+}
+
+.phead {
+    color: black;
+}
+
+.headsec>div:first-child {
+    margin-right: 50px;
+}
+
+.headsec>div:last-child {
+    margin-right: 50px;
+}
+
+.headsec {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.buthead {
+    display: inline-block;
+    padding: 10px 10%;
+    background-color: hsl(322, 100%, 66%);
+    font-size: 20px;
+    color: white;
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 50px;
+}
+
+.btnhead {
+    display: inline-block;
+    color: black;
+    padding: 10px 5%;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: white;
+}
+
+
+/*-----THREE SECTION-----*/
+
+.onebox,
+.twobox,
+.threebox {
+    display: flex;
+    align-items: center;
+    padding: 5% 0;
+    border: 1px solid rgb(206, 204, 204);
+    margin-top: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.onebox>div,
+.twobox>div,
+.threebox>div {
+    flex: 1;
+}
+
+.onebox>div:first-child,
+.twobox>div:first-child,
+.threebox>div:first-child {
+    margin-left: 10%;
+}
+
+.onebox>div:last-child,
+.threebox>div:last-child {
+    margin-left: 10%;
+}
+
+.growtogether,
+.flowingconvo,
+.youruser {
+    width: 80%;
+}
+
+p {
+    color: hsl(208, 11%, 55%);
+}
+
+
+/*-----SMALL SECTION-----*/
+
+.smallbox {
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid rgb(206, 204, 204);
+    padding: 2% 10%;
+    height: 25vh;
+    border-radius: 10px;
+    margin-top: 5%;
+    position: relative;
+    bottom: -80px;
+    background-color: white;
+}
+
+.butfut {
+    display: inline-block;
+    padding: 2% 10%;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 70px;
+    margin-left: 20%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+}
+
+
+/*-----FOOTER SECTION-----*/
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    padding: 5% 0;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot>div {
+    flex: 1;
+    margin-left: -25px;
+}
+
+.futlogo {
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style: none;
+    margin-right: 70px;
+}
+
+footer ul li {
+    margin-bottom: 20px;
+}
+
+ion-icon {
+    font-size: 30px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 8px;
+    margin-left: 10px;
+}

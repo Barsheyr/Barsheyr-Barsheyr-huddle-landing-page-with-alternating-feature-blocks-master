@@ -1,0 +1,58 @@
+@media screen and (max-width:768px) {
+    body {
+        text-align: center;
+        margin: 0;
+    }
+    .logohead {
+        width: 30%;
+    }
+    .btnhead {
+        padding: 2px 10px;
+    }
+    .phead {
+        line-height: 1.7;
+    }
+    .headsec {
+        flex-direction: column;
+        margin-left: 10%;
+        height: 200vh;
+    }
+    .headsec>div:last-child {
+        margin-top: -180%;
+    }
+    .onebox {
+        flex-direction: column;
+        margin-top: 30%;
+    }
+    .twobox,
+    .threebox {
+        flex-direction: column;
+    }
+    .onebox>div:first-child,
+    .threebox>div:first-child {
+        order: 2;
+        margin-top: 15%;
+        margin-left: 10px;
+    }
+    .twobox>div:last-child {
+        margin-top: 15%;
+        padding: 0 7%;
+    }
+    .smallbox {
+        width: 100%;
+        margin-left: -5px;
+    }
+    .butfut {
+        margin-left: -3px;
+    }
+    .futlogo {
+        margin-top: 25%;
+        margin-left: -40%;
+    }
+    .foot {
+        flex-direction: column;
+    }
+    footer ul {
+        text-align: left;
+    }
+}
